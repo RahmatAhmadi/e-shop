@@ -33,8 +33,8 @@ const HomeBanner = () => {
         >
           <h1
             className="
-          text-4xl
-          md:text-6xl
+          text-3xl
+          lg:text-6xl
           font-bold
           text-white
           mb-4
@@ -44,7 +44,7 @@ const HomeBanner = () => {
           </h1>
           <p
             className="
-          text-lg
+          text-base
           md:text-xl
           text-white
           mb-2
@@ -54,8 +54,8 @@ const HomeBanner = () => {
           </p>
           <p
             className="
-          text-wxl
-          md:text-5xl
+          text-3xl
+          lg:text-5xl
           text-yellow-400
           font-bold
           "
@@ -63,7 +63,7 @@ const HomeBanner = () => {
             GET 50% OFF
           </p>
         </div>
-        <div className="w-1/3 relative aspect-video">
+        <div className="w-56 md:w-1/3 relative aspect-video">
           <Image
             src="/banner-image.png"
             fill
